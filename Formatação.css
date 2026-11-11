@@ -60,3 +60,60 @@ h2{
 .logo{
     filter: drop-shadow(0 0 0.75rem rgb(191, 39, 69));
 }
+
+:root {
+    --cor-principal: #ff0000;
+    --cor-secundaria: #000000;
+    --cor-texto: #ffffff;
+    --tamanho-fonte: 20px;
+}
+td{
+    color: white;
+    text-shadow: -1px -1px 0 black,
+                 1px -1px 0 black,
+                -1px  1px 0 black,
+                 1px  1px 0 black;
+                 border: 1px solid rgb(0, 0, 0);
+                 background-color: #f7f4f6;
+                 text-align: center;
+                 
+}
+tr{
+    color: white;
+    text-shadow: -1px -1px 0 black,
+                 1px -1px 0 black,
+                -1px  1px 0 black,
+                 1px  1px 0 black;
+                 border: 1px solid rgb(0, 0, 0);
+                 background-color: #f7f4f6;
+                 text-align: center;
+                
+}
+th{
+    color: white;
+    text-shadow: -1px -1px 0 black,
+                 1px -1px 0 black,
+                -1px  1px 0 black,
+                 1px  1px 0 black;
+                 border: 1px solid rgb(0, 0, 0);
+                 background-color: #f7f4f6;
+                 text-align: center;
+                
+}
+.tabelaperso{
+    color: white;
+    text-shadow: -1px -1px 0 black,
+                 1px -1px 0 black,
+                -1px  1px 0 black,
+                 1px  1px 0 black;
+                 border: 1px solid rgb(0, 0, 0);
+                 background-color: #f7f4f6;
+                 width: 100%;
+                 text-align: center;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
