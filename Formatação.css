@@ -3,6 +3,7 @@
 }
 .cima{
     background-color: transparent;
+    text-align: center;
 }
 header{
     position: relative;
@@ -60,9 +61,12 @@ h2{
                  font-size: 30px;
 }
 .logo{
+    display: block;
+    width: min(220px, 70%);
+    height: auto;
+    margin: 0 auto 16px;
     filter: drop-shadow(0 0 0.75rem rgb(191, 39, 69));
 }
-
 .atalhos{
     display: flex;
     flex-wrap: wrap;
@@ -257,7 +261,8 @@ h2{
     margin: 2px 0;
 }
 .lista-partes{
-    width: min(90%, 800px);
+    width: 95%;
+    max-width: none;
     margin: 32px auto;
 }
 .lista-partes details{
@@ -269,6 +274,8 @@ h2{
     backdrop-filter: blur(3px);
 }
 .lista-partes summary{
+    box-sizing: border-box;
+    width: 100%;
     padding: 14px 18px;
     color: #fff;
     font-size: 1.15rem;
