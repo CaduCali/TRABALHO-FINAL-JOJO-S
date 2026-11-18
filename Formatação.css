@@ -177,6 +177,33 @@ h2{
     overflow: hidden;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
 }
+.lista-partes .parte-1 .tabeladepersonagens{
+    background-image: linear-gradient(rgba(36, 0, 26, 0.25), rgba(36, 0, 26, 0.25)), url("Imagensjj/b1.jfif");
+}
+.lista-partes .parte-2 .tabeladepersonagens{
+    background-image: linear-gradient(rgba(36, 0, 26, 0.25), rgba(36, 0, 26, 0.25)), url("Imagensjj/b2.jfif");
+}
+.lista-partes .parte-3 .tabeladepersonagens{
+    background-image: linear-gradient(rgba(36, 0, 26, 0.25), rgba(36, 0, 26, 0.25)), url("Imagensjj/b3.jfif");
+}
+.lista-partes .parte-4 .tabeladepersonagens{
+    background-image: linear-gradient(rgba(36, 0, 26, 0.25), rgba(36, 0, 26, 0.25)), url("Imagensjj/b4.jfif");
+}
+.lista-partes .parte-5 .tabeladepersonagens{
+    background-image: linear-gradient(rgba(36, 0, 26, 0.25), rgba(36, 0, 26, 0.25)), url("Imagensjj/b5.jfif");
+}
+.lista-partes .parte-6 .tabeladepersonagens{
+    background-image: linear-gradient(rgba(36, 0, 26, 0.25), rgba(36, 0, 26, 0.25)), url("Imagensjj/b6.jfif");
+}
+.lista-partes .parte-7 .tabeladepersonagens{
+    background-image: linear-gradient(rgba(36, 0, 26, 0.25), rgba(36, 0, 26, 0.25)), url("Imagensjj/b7.jfif");
+}
+.lista-partes .parte-8 .tabeladepersonagens{
+    background-image: linear-gradient(rgba(36, 0, 26, 0.25), rgba(36, 0, 26, 0.25)), url("Imagensjj/b8.jfif");
+}
+.lista-partes .parte-9 .tabeladepersonagens{
+    background-image: linear-gradient(rgba(36, 0, 26, 0.25), rgba(36, 0, 26, 0.25)), url("Imagensjj/b9.jfif");
+}
 .tabeladepersonagens tr{
     background: rgba(36, 0, 26, 0.24);
     transition: background-color 0.2s ease;
@@ -293,6 +320,12 @@ h2{
 .lista-partes details > .personagens{
     padding: 16px;
     overflow-x: auto;
+}
+.resumo-parte{
+   margin: 0 0 12px;
+   color: #fff;
+   font-weight: bold;
+   text-align: center;
 }
 .lista-partes .parte-vazia{
     padding: 14px 18px;
