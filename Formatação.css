@@ -334,11 +334,57 @@ h2{
     background: rgba(36, 0, 26, 0.58);
     font-size: 16px;
 }
+.lista-partes > section{
+    margin: 12px 0;
+    border: 1px solid rgba(255, 211, 13, 0.7);
+    border-radius: 8px;
+    background: rgba(36, 0, 26, 0.7);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(3px);
+}
+.lista-partes > section > h3{
+    margin: 0;
+    padding: 14px 18px;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 211, 13, 0.45);
+    background: linear-gradient(135deg, rgba(91, 13, 63, 0.8), rgba(36, 0, 26, 0.8));
+    font-size: 1.15rem;
+    text-shadow: 1px 1px 2px #000;
+}
+.lista-partes .conteudo-parte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    padding: 16px;
+}
+.lista-partes .conteudo-parte img{
+    display: block;
+    width: 70%;
+    max-width: 70%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.lista-partes .conteudo-parte p{
+    width: 70%;
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
 @media (max-width: 600px){
     .personagens{
         overflow-x: auto;
     }
     .tabeladepersonagens{
         min-width: 520px;
+    }
+    .lista-partes .conteudo-parte{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .lista-partes .conteudo-parte img{
+        width: 100%;
+        max-width: 100%;
     }
 }
